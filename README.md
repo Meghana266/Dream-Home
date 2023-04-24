@@ -2,11 +2,10 @@
 
 ## Instructions to Run the Code: 
 
-### First run this command ```npm init -y```
-### and then run ```npm install``` this will install all required dependencies
-### then to start the server run ```node index.js```
+### First run this command ```npm i``` this will install all required dependencies
+### then to start the server run ```npm start```
 
-### Then open a browser and go to this link ```http://localhost:3000/``` 
+### Then open a browser and go to this link ```http://localhost:9000/``` 
 
 ##
 
@@ -18,6 +17,10 @@
 ### It also helps to find best architecture designers and contractors to build dream home.
 ### It also provides architects contractors and interiors details where customer can contact.
 
+###DB Dump
+## Make sure that the Mongodb database is installed in your system and is running
+## Open a command line interface (CLI) and navigate to the directory containing the dump file
+## Use the command ```mongo restore --db project /path/to/dumpfile or tool to install the dump file into the database
 
 
 
