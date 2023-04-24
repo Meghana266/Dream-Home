@@ -17,7 +17,7 @@
 ### It also helps to find best architecture designers and contractors to build dream home.
 ### It also provides architects contractors and interiors details where customer can contact.
 
-###DB Dump
+### DB Dump
 ## Make sure that the Mongodb database is installed in your system and is running
 ## Open a command line interface (CLI) and navigate to the directory containing the dump file
 ## Use the command ```mongo restore --db project /path/to/dumpfile or tool to install the dump file into the database
