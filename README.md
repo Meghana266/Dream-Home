@@ -20,7 +20,11 @@
 ### DB Dump
 ## Make sure that the Mongodb database is installed in your system and is running
 ## Open a command line interface (CLI) and navigate to the directory containing the dump file
-## Use the command ```mongo restore --db project /path/to/dumpfile or tool to install the dump file into the database
+## Use the command ```mongo restore --db project dump/clients.json```, 
+## ```mongo restore --db project dump/users.json```, 
+## ```mongo restore --db project dump/landsells.json```, 
+## ```mongo restore --db project dump/housesells.json``` 
+## or tool to install the dump file into the database
 
 
 
