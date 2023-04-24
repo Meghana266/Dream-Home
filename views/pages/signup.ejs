@@ -14,7 +14,7 @@
 			<img src="/public/images/bg.svg">
 		</div>
 		<div class="login-content">
-			<form action="index.html">
+			<form action="/signup" method="post">
 				<img src="/public/images/avatar.svg">
 				<h2 class="title">Signup</h2>
            		<div class="input-div one">
@@ -32,7 +32,7 @@
                     </div>
                     <div class="div">
                             <h5>Email</h5>
-                            <input type="text" class="input" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2, 4}$" required>
+                            <input type="text" class="input" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2, 4}$" required>
                     </div>
                  </div>
                  <div class="input-div one">
@@ -63,7 +63,7 @@
                     </div>
                  </div>
             	<input type="submit" class="btn" value="Register">
-                <p class="message"> Already Registered?<a href="index.html">Login</a>
+                <p class="message"> Already Registered?<a href="/signin">Login</a>
 				</p>
             </form>
             </div>
