@@ -1,0 +1,61 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ECF2FF;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+        justify-content: center;
+
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+}
+
+input[type="file"] {
+    display: block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.imageThumb {
+    max-height: 75px;
+    border: 2px solid;
+    padding: 1px;
+    cursor: pointer;
+}
+
+.pip {
+    display: inline-block;
+    margin: 10px 10px 0 0;
+}
+
+.remove {
+    display: flex;
+    background: #444;
+    border: 1px solid black;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.remove:hover {
+    background: white;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    transition: 0.2s;
+}
+
+.pic img {
+
+    width: 400px;
+    height: 400px;
+    
+    margin:100px 150px;
+}
+

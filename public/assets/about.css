@@ -1,0 +1,151 @@
+header{
+    position: fixed;
+    margin:0;
+    padding:0;
+    width: 100%;
+    top: 0;
+    background-color: rgb(176, 141, 248);
+    z-index:2;
+}
+
+header a{
+    float: left;
+    display:block;
+    color: black;
+    padding:14px 10px;
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    text-decoration: none;
+}
+
+header a:hover{
+    background:rgb(61,92,92);
+    color:whitesmoke;
+    border-radius: 10px;
+}
+
+
+
+#login-bar a{
+    float:left;
+    display:block;
+    color: black;
+    text-align:center;
+    padding:14px 10px;
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    text-decoration: none;
+}
+
+#login-bar a:hover{
+    background:rgb(61,92,92);
+    color:whitesmoke;
+    border-radius: 10px;
+}
+
+#logo{
+    height:20px;
+    width:20px;
+    border-radius: 5px;
+    float: left;
+}
+
+#login-pic{
+    float: right;
+    height:20px;
+    width:20px;
+    margin-top:15px;
+    margin-right: 20px;
+    margin-left:5px;
+}
+
+.title{
+    text-align:center;
+    color:rgb(15, 15, 15);
+    font-family:'Alegreya';
+    font-size:20px;
+}
+
+.names , h1{
+    text-align:center;
+}
+
+.content{
+    font-size:20px;
+    align-items: left;
+    
+}
+
+.content p, h3{
+    font-style: oblique;
+    color: white;
+}
+
+.title h1{
+    font-variant: small-caps;
+    font-stretch: extra-condensed;
+    font-family: Georgia;
+}
+  
+
+
+.names{
+    border-top:5px solid rgb(123, 175, 205);
+    padding-top:20px;
+    border-bottom:5px solid rgb(123, 175, 205);
+    padding-bottom:30px;
+    background-image: linear-gradient(rgb(238, 45, 183),rgb(81, 183, 242));
+}
+
+
+
+.contributor-container {
+  display: flex;
+  background-color: black;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #333;
+ 
+}
+body{
+  background-color: black;
+}
+.row1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contributor {
+  margin: 20px;
+  text-align: center;
+}
+
+.contributor img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.contributor p {
+  margin: 10px 0;
+  color: white;
+}
+
+ h3 {
+  align-items: center;
+  text-align: center;
+  font-size: 2rem;
+  
+}
+ul{
+  color:white;
+}

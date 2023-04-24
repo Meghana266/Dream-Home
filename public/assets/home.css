@@ -1,0 +1,144 @@
+header{
+    position: fixed;
+    margin:0;
+    padding:0;
+    width: 100%;
+    top: 0;
+    background-color: rgb(147, 176, 176);
+    z-index:2;
+}
+
+header a{
+    float: left;
+    display:block;
+    color: black;
+    padding:14px 10px;
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    text-decoration: none;
+}
+
+header a:hover{
+    background:rgb(61,92,92);
+    color:whitesmoke;
+    border-radius: 10px;
+}
+
+
+footer{
+    overflow: hidden;
+    width: 100%;
+    margin-bottom: 0;
+    background-color: rgb(147, 176, 176);
+    z-index:2;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
+
+footer a{
+    float: left;
+    display:block;
+    color: black;
+    padding:10px 50px;
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    text-decoration: none;
+}
+
+footer a:hover{
+    background:rgb(61,92,92);
+    color:whitesmoke;
+    border-radius: 10px;
+} 
+*/
+#login-bar a{
+    float:left;
+    display:block;
+    color: black;
+    text-align:center;
+    padding:14px 10px;
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    text-decoration: none;
+}
+
+#login-bar a:hover{
+    background:rgb(61,92,92);
+    color:whitesmoke;
+    border-radius: 10px;
+}
+
+#logo{
+    height:20px;
+    width:20px;
+    border-radius: 5px;
+    float: left;
+}
+
+#login-pic{
+    float: right;
+    height:20px;
+    width:20px;
+    margin-top:15px;
+    margin-right: 20px;
+    margin-left:5px;
+}
+
+a{
+    text-decoration:none;
+    color:blue;
+}
+
+.heading{
+    text-align:center;
+    font-size:50px;
+    font-variant: small-caps;
+    font-stretch: extra-condensed;
+    /* font-style: oblique; */
+    font-family: Georgia;
+}
+
+body{
+    margin:0px;
+}
+
+footer{
+    border-radius: 0px;
+}
+
+p{
+    font-size:25px;
+    font-style: oblique;
+    margin-left:20px;
+}
+
+.left{
+    float:left;
+    width:450px;
+    height:250px;
+    margin-bottom:20px;
+}
+
+.right{
+    float:right;
+    width:450px;
+    height:250px;
+    margin-bottom:20px;
+}
+
+.center{
+    margin-left:500px;
+    width:450px;
+    height:250px;
+    margin-bottom:20px;
+}
+
+.container{
+    margin-left:50px;
+    margin-right:50px;
+}
+
+#service{
+    margin-left:20px;
+}

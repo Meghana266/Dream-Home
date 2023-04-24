@@ -1,0 +1,112 @@
+/* body {
+    background-color: #DAF5FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+h1 {
+    font-family: 'Source Sans Pro', sans-serif;
+    text-decoration: underline;
+}
+
+form {
+    width: 500px;
+    margin-top: 50px;
+    ;
+}
+
+.m1 {
+    position: relative;
+    margin-bottom: 45px;
+}
+
+.m1 input {
+    display: block;
+    width: 300px;
+    font-size: 14pt;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+} 
+
+.m1 input:focus {
+    outline: none;
+} 
+
+.m1 label {
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    color: #999;
+    font-size: 14pt;
+    font-weight: normal;
+    pointer-events: none;
+    transition: all 0.2s ease;
+} 
+ 
+.m1 input:focus~label,
+.m1 input:valid~label {
+    top: -25px;
+    font-size: 14pt;
+    font-family: 'Montserrat', sans-serif;
+
+    color: #7149C6;
+} 
+
+.bar {
+    display: block;
+    position: relative;
+    width: 320px;
+}
+
+.bar:before,
+.bar:after {
+    content: "";
+    height: 2px;
+    width: 0;
+    bottom: 1px;
+    position: absolute;
+    background: #5264AE;
+    transition: all 0.2s ease;
+}
+
+.bar:before {
+    left: 50%;
+}
+
+.bar:after {
+    right: 50%;
+}
+
+.m1 input:focus~.bar:before,
+input:focus~.bar:after {
+    width: 50%;
+} 
+
+.photo {
+    margin-top: 70px;
+}
+
+.sample {
+    display: flex;
+}
+
+.continue {
+    padding: 10px 90px;
+    margin-left: 10px;
+    margin-top:20px;
+    background-color: rgb(248, 135, 193);
+    border-radius: 15px;
+    letter-spacing: 1px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.continue:hover {
+    background-color: rgba(32, 178, 170, 0.8);
+    transition: 0.2s;
+
+}
